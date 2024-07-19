@@ -25,3 +25,5 @@ const swapQuotation = await api.protocols.uniswapv3.getSwapTokenQuotation(chainI
 });
 
 const swapLogic = api.protocols.uniswapv3.newSwapTokenLogic(swapQuotation)
+
+TextDecoderStream;
